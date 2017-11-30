@@ -1,4 +1,4 @@
-  .ticTable td {
+.ticTable td {
   height: 100px;
   width: 100px;
   padding: 15px;
@@ -22,28 +22,20 @@
 
 .container {
   margin: 20px;
-  display: inline-block;
-  text-align: center;
 }
 
-hr{
-  width: 80%;
-  margin-bottom: 20px;
-}
-
-.board {
-  margin: 20px 60px;
+.box {
+  margin: 20px;
   display: inline-block;
   float: left;
 }
 
 .controls {
-  float: left;
   min-width: 400px;
   min-height: 300px;
   text-align: center;
   display: inline-block;
-  margin: 20px 80px;
+  margin: 80px 60px;
   background-color: rgba(128, 128, 128, 0.08);
 }
 
@@ -81,15 +73,3 @@ hr{
 table {
   display: inline-table;
 }
-
-.times {
-  text-align: left;
-  margin-left: 30px;
-  font-style: italic;
-  color: #343e35;
-}
-
-.times span {
-  width: 70px;
-  font-style: normal;
-  font-weight: bold;}
